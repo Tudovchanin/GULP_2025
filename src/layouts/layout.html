@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/assets/css/main.min.css">
+</head>
+<body class="page-{{ page }}">
+
+  {% include "header.html" %}
+
+  <main>
+    {% block content %}{% endblock %} 
+  </main>
+
+  {% include "footer.html" %}
+
+  <script src="/assets/js/main.min.js"></script>
+</body>
+</html>

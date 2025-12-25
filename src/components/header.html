@@ -1,0 +1,9 @@
+<header>
+  <h1>{{ components.header.logo }}</h1>
+
+  <nav>
+    {% for item in components.header.menu %}
+      <a href="{{item.link}}">{{ item.text }}</a>
+    {% endfor %}
+  </nav>
+</header>

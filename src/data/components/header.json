@@ -1,0 +1,4 @@
+{
+  "logo": "Logo",
+  "menu": [ {"text":"Home", "link":"/"}, {"text":"About", "link":"about.html"}]
+}
